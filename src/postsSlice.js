@@ -25,4 +25,4 @@ const fetchPosts = createAsyncThunk("fetchPosts", async () => {
     return response.data;
 });
 
-const store = createStore(postsSlice.reducer, applyMiddleware(thunkMiddleware));
+// const store = createStore(postsSlice.reducer, applyMiddleware(thunkMiddleware));
